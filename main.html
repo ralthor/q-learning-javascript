@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <script src="js/main.js"></script>
+</head>
+
+<body onload="drawTable(q, 'show');">
+    <h1>Q-learning in Javascript</h1>
+    <p>
+        Use start, step and stop buttons to control the learning process.
+    </p>
+    <p>
+        When it is stoped, click to add -1, and double click to add 1.
+    </p>
+    <button onclick="start()">Start</button>
+    <button onclick="stop()">Stop</button>
+    <button onclick="step()">Step</button>
+    <button onclick="reset()">Reset Learning</button>
+    <button onclick="resetEnv()">Reset Environment</button>
+    <div id="show"></div>
+</body>
+
+</html>
