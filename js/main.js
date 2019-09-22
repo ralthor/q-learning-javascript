@@ -184,6 +184,10 @@ function drawTable(q, id) {
     let div = document.getElementById(id);
     div.innerHTML = "";
     div.appendChild(tbl);
+
+    document.getElementById('showAlpha').innerHTML = q.alpha = document.getElementById('alpha').value/1000
+    document.getElementById('showEpsilon').innerHTML = q.epsilon = document.getElementById('epsilon').value/1000
+    document.getElementById('showDiscount').innerHTML = q.discount = document.getElementById('discount').value/1000
 }
 
 function heatmapColor(value) {
