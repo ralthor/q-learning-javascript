@@ -12,4 +12,4 @@ The learning process in Q-Learning is based on scoring the next possible actions
 - Starting from the end of the list, I apply the learning formula to all of the state, action pairs it traversed.
 - Instead of adding the reward, I simply multipied it. It helps not to be aware of reducing it while going backward through the list.
 
-I have written a [post here](https://blog.communere.com/A-Brief-Description-on-Q-Learning) about this implementation.
+I have written a [post here](https://blog.communere.com/ai/ml/q-learning/reinforcement%20learning/2019/09/03/A-Brief-Description-on-Q-Learning.html) about this implementation.
